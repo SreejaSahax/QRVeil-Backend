@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QRVeil: QR Detection Extension - README</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #e3f2fd);
+      color: #1e3a8a;
+      margin: 0;
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.4em;
+      color: #2563eb;
+    }
+
+    h2 {
+      color: #1d4ed8;
+      margin-top: 2em;
+    }
+
+    code {
+      background: #f0f4ff;
+      padding: 2px 6px;
+      border-radius: 6px;
+      color: #1e40af;
+    }
+
+    .screenshot {
+      display: block;
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px auto;
+      border: 2px solid #60a5fa;
+    }
+
+    ul {
+      margin-top: 0.5em;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #64748b;
+    }
+
+    .highlight {
+      background: #eff6ff;
+      padding: 10px;
+      border-left: 4px solid #3b82f6;
+      border-radius: 6px;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>QRVeil: QR Detector Chrome Extension</h1>
+
+    <p><strong>QRVeil</strong> is a lightweight and sleek Chrome extension that allows you to quickly scan and decode QR codes directly from your browser popup window.</p>
+
+    <h2>🚀 Features</h2>
+    <ul>
+      <li>Real-time QR code detection</li>
+      <li>Copy decoded result to clipboard</li>
+      <li>Open scanned URL in a new tab</li>
+    </ul>
+
+    <h2>🛠️ Installation</h2>
+    <ol>
+      <li>Download or clone this repository</li>
+      <li>Go to <code>chrome://extensions/</code> in Chrome</li>
+      <li>Enable <strong>Developer Mode</strong></li>
+      <li>Click <strong>Load Unpacked</strong> and select the extension folder</li>
+    </ol>
+
+    <h2>📁 Project Structure</h2>
+    <div class="highlight">
+      <pre>
+DetectExtension/
+├── icons/
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
+├── popup.html
+├── popup.js
+├── jsQR.js
+├── manifest.json
+└── README.html
+      </pre>
+    </div>
+
+    <h2>🧠 Tech Stack</h2>
+    <ul>
+      <li>HTML/CSS</li>
+      <li>JavaScript</li>
+      <li><code>jsQR.js</code> - QR decoding library</li>
+    </ul>
+
+    <footer>
+      Made with love by OASIS | © 2025
+    </footer>
+  </div>
+</body>
+</html>
